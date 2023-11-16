@@ -4,27 +4,27 @@
 
 > The MyBank Database is designed to manage and track various aspects of a banking system. It includes tables to store information about customers, accounts, employees, transactions, applications, and their associated statuses. The database aims to facilitate effective management of banking operations, customer details, and application processes within a financial institution.
 
-Structure
-Tables:
-AccountType: Stores various types of accounts available, such as Checking, Savings, Mortgage, Credit Card, and Private Loan.
+<h1>Structure
+Tables:</h1>
+<h3>AccountType:</h3> Stores various types of accounts available, such as Checking, Savings, Mortgage, Credit Card, and Private Loan.
 
-Customers: Holds information about bank customers including their personal details like name, contact information, and address.
+<h3>Customers:</h3> Holds information about bank customers including their personal details like name, contact information, and address.
 
-Accounts: Contains data related to individual accounts, including the customer linked to the account, account type, balance, and opening date.
+<h3>Accounts:</h3> Contains data related to individual accounts, including the customer linked to the account, account type, balance, and opening date.
 
-ApplicationType: Records different types of applications such as Credit Card, Private Loan, etc.
+<h3>ApplicationType:</h3> Records different types of applications such as Credit Card, Private Loan, etc.
 
-ApplicationStatus: Stores the status of different applications like Pending, Approved, or Denied.
+<h3>ApplicationStatus:</h3> Stores the status of different applications like Pending, Approved, or Denied.
 
-Employees: Holds details about bank employees including their names, contact information, and address.
+<h3>Employees:</h3> Holds details about bank employees including their names, contact information, and address.
 
-Applications: Stores information about various applications made by customers, the type of application, its status, date, and the employee handling the application.
+<h3>Applications:</h3> Stores information about various applications made by customers, the type of application, its status, date, and the employee handling the application.
 
-TransactionType: Records different types of transactions like Deposit, Withdrawal, Transfer, and Check.
+<h3>TransactionType:</h3> Records different types of transactions like Deposit, Withdrawal, Transfer, and Check.
 
-Transactions: Contains transaction records including customer details, transaction amount, date, and the type of transaction.
+<h3>Transactions:<h3> Contains transaction records including customer details, transaction amount, date, and the type of transaction.
 
-Views:
+<h3>Views:<h3>
 Several views are created to present summarized or combined data from the tables, such as:
 
 CustomerAccountBalance: Shows account balances for each customer.
