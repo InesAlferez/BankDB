@@ -24,7 +24,7 @@ Tables:</h1>
 
 <h3>Transactions:<h3> Contains transaction records including customer details, transaction amount, date, and the type of transaction.
 
-<h3>Views:<h3>
+<h3>Views:</h3>
 Several views are created to present summarized or combined data from the tables, such as:
 
 CustomerAccountBalance: Shows account balances for each customer.
@@ -36,7 +36,8 @@ EmployeeInformation: Offers a simplified view of employee contact information.
 CustomerTransactions: Shows customer transactions with transaction type.
 TypeOfTransactions: Combines customer, transaction, and transaction type information.
 Usage
-This database can be utilized to:
+
+<h3>This database can be utilized to:</h3>
 
 Manage customer information and their associated accounts.
 Track different types of applications and their statuses.
